@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.indexMain {
+    width: 100%;
+    flex: 1; 
+    background-color: #f8fafc; 
+    display: flex;
+    justify-content: center; 
+}
+
+.indexContainer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.indexEncabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.indexEncabezado h1 {
+    font-size: 1.8rem;
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.indexEncabezado p {
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.btn-export {
+    background: white;
+    border: 1px solid #cbd5e1;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    color: #334155;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-export:hover {
+    background: #f1f5f9;
+}
+
+.indexEstadisticas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cardEstadistica {
+    display: block; 
+    text-decoration: none; 
+    color: inherit;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+    border: 1px solid #f1f5f9;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cardEstadistica:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.04);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cardHeader h3 {
+    font-size: 0.95rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.icon-wrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.icon-blue { background: #eff6ff; color: #3b82f6; }
+.icon-green { background: #ecfdf5; color: #10b981; }
+.icon-purple { background: #f3e8ff; color: #8b5cf6; }
+
+.numeroCard {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.subTextoCard {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.text-green {
+    color: #10b981;
+}
+
+.indexAcciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-link {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 260px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s;
+}
+
+.card-link:hover {
+    transform: translateY(-5px);
+}
+
+.bg-truck { background: url('../assets/img/camion.png') center/cover; }
+.bg-driver { background: url('../assets/img/camionero.png') center/cover; }
+.bg-trip { background: url('../assets/img/viaje.png') center/cover; }
+
+.card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.2) 60%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+}
+
+.card-content {
+    position: relative;
+    z-index: 2;
+    padding: 24px;
+    width: 100%;
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.card-content h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-content p {
+    font-size: 0.85rem;
+    color: #e2e8f0;
+}

@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8fafc;
+}
+
+.mainListado {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 20px;
+}
+
+.listadoWrapper {
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.listadoHeaderFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.listadoEncabezado h1 {
+    font-size: 1.6rem;
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.listadoEncabezado p {
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.btnPrincipal {
+    background-color: #2563eb; 
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+}
+
+.btnPrincipal:hover {
+    background-color: #1d4ed8;
+}
+
+.listadoCard {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableResponsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tablaEstilo {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tablaEstilo th {
+    background-color: #f8fafc;
+    color: #64748b;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 16px 30px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tablaEstilo td {
+    padding: 16px 30px;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: middle;
+}
+
+.tablaEstilo tbody tr {
+    transition: background-color 0.2s;
+}
+
+.tablaEstilo tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.idViaje {
+    font-weight: 700;
+    color: #334155;
+    font-size: 0.95rem;
+}
+
+.tdCamion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.textIcon {
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
+
+.tdCamionTextos, .tdRuta {
+    display: flex;
+    flex-direction: column;
+}
+
+.patente, .rutaPrincipal, .nombreChofer {
+    font-size: 0.95rem;
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.modelo, .rutaSecundaria {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+.tdChofer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatarTabla {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #e2e8f0;
+}
+
+.fechaSalida {
+    font-size: 0.9rem;
+    color: #475569;
+    font-weight: 500;
+}
+
+.tdAcciones {
+    color: #cbd5e1;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.tdAcciones:hover {
+    color: #64748b;
+}
+
+.badgeEstado {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.estadoProgreso { background-color: #eff6ff; color: #2563eb; border: 1px solid #dbeafe; }
+.estadoProgreso .dot { background-color: #3b82f6; }
+
+.estadoPlaneado { background-color: #fffbeb; color: #d97706; border: 1px solid #fef3c7; }
+.estadoPlaneado .dot { background-color: #f59e0b; }
+
+.estadoCompletado { background-color: #f0fdf4; color: #16a34a; border: 1px solid #dcfce7; }
+.estadoCompletado .dot { background-color: #22c55e; }
+
+.badgeCosto {
+    font-weight: 600;
+    color: #475569;
+    font-size: 0.9rem;
+    background-color: #f1f5f9;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.badgeMonto {
+    font-weight: 600;
+    color: #166534;
+    background-color: #dcfce7; 
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.badgeMonto small {
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 0.75rem;
+}
