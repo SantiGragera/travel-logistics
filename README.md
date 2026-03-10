@@ -28,6 +28,14 @@ Travel Logistics es una plataforma web integral diseñada para administrar, desp
 * **Frontend:** HTML5 semántico y CSS3 puro (Flexbox, Grid, variables, UI moderna)
 * **Iconografía:** Bootstrap Icons
 
-**Credenciales de prueba (Administrador):**
+## 🌐 Proyecto en Vivo (Live Demo)
+
+El sistema se encuentra desplegado y 100% funcional en la nube. Puedes acceder a la plataforma y probar todas sus características a través del siguiente enlace:
+
+🔗 **[Probar Travel Logistics en Vivo](https://travel-logistics.great-site.net/index.php)**
+
+Para poder explorar el panel de control, los listados y probar la carga de datos, utiliza las siguientes credenciales de prueba:
+
+**Credenciales de acceso (Perfil Administrador):**
 * **Usuario:** admin
 * **Clave:** 1234

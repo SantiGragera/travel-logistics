@@ -1,9 +1,9 @@
 <?php 
 function conexionDB(){
-    $Host="localhost";
-    $User="root";
-    $Password="";
-    $BaseDeDatos="transportes"; 
+    $Host="sql100.infinityfree.com";
+    $User="if0_41358532";
+    $Password="mmBO3A1pwPI";
+    $BaseDeDatos="if0_41358532_transportes"; 
 
     $linkConexion = mysqli_connect($Host, $User, $Password, $BaseDeDatos);
     if ($linkConexion) {

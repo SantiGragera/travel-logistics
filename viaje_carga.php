@@ -57,7 +57,7 @@ if (!empty($_POST['BotonRegistrar'])) {
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
     <link rel="stylesheet" href="design/header.css?v=3">
     <link rel="stylesheet" href="design/footer.css">
     <link rel="stylesheet" href="design/formularios.css?v=5"> 

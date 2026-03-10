@@ -22,7 +22,7 @@ $FechaActual = date("Y-m-d");
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Viajes - Travel Logistics</title>
-
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
