@@ -19,7 +19,7 @@ Travel Logistics es una plataforma web integral diseñada para administrar, desp
 
 | Panel de Control | Listado de Choferes | Formulario de Carga |
 | :---: | :---: | :---: |
-| <img src="assets/img/capturaPanel.png" width="300"/> | <img src="ruta/a/tu/listadoChoferes.png" width="300"/> | <img src="ruta/a/tu/cargaViajes.png" width="300"/> |
+| <img src="assets/img/capturaPanel.png" width="300"/> | <img src="assets/img/listadoChoferes.png" width="300"/> | <img src="assets/img/cargaViajes.png" width="300"/> |
 
 ## 🛠️ Tecnologías Utilizadas
 
